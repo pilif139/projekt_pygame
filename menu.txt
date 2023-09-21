@@ -1,0 +1,30 @@
+# mx, my = pygame.mouse.get_pos()  # pozycja myszki na ekranie
+        #
+        # StartButton = pygame.Rect(10, 20, 270, 70)
+        # pygame.draw.rect(screen, (50, 50, 50), StartButton)
+        # drawText("START", rpgfont, (255, 255, 255), screen, 20, 40)
+        #
+        # ContinueButton = pygame.Rect(10, 110, 270, 70)
+        # pygame.draw.rect(screen, (50, 50, 50), ContinueButton)
+        # drawText("WCZYTAJ SAVE", rpgfont, (255, 255, 255), screen, 20, 130)
+        #
+        # OptionsButton = pygame.Rect(10, 200, 270, 70)
+        # pygame.draw.rect(screen, (50, 50, 50), OptionsButton)
+        # drawText("STEROWANIE", rpgfont, (255, 255, 255), screen, 20, 220)
+        #
+        # EscapeButton = pygame.Rect(10, 290, 270, 70)
+        # pygame.draw.rect(screen, (255, 20, 20), EscapeButton)
+        # drawText("QUIT", rpgfont, (255, 255, 255), screen, 20, 310)
+        #
+        # if StartButton.collidepoint((mx, my)):
+        #     if mouseClick:
+        #         print("start")
+        # if ContinueButton.collidepoint((mx, my)):
+        #     if mouseClick:
+        #         print("wczytaj save")
+        # if OptionsButton.collidepoint((mx, my)):
+        #     if mouseClick:
+        #         print("opcje")
+        # if EscapeButton.collidepoint((mx, my)):
+        #     if mouseClick:
+        #         run = False
